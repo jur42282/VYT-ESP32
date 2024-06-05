@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#"><i class="material-symbols-outlined">close</i></a></li>
+            <!-- <li><a href="#">LJ</a></li> -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">Project</a></li>
+        </ul>
+        <ul>
+            <li><a href="#"></a></li>
+            <li class="hideOnMobile"><a href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="#">Why Python?</a></li>
+            <li class="hideOnMobile"><a href="#">Tutorials</a></li>
+            <li class="hideOnMobile"><a href="#">Projects</a></li>
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><i class="material-symbols-outlined">menu</i></a></li>
+        </ul>
+    </nav>
+    <section id="first">
+        <div class="container" id="esp"><img src="/images/ESP32-DEVKITC-32E-removebg-preview.png" alt="ESP32-DEVKITC-32E"></div>
+        <div class="cntainer" id="heading">
+            <h1 class="big_heading">ESP32<br> IN PYTHON</h1>
+        </div>
+    </section>
+    <section id="second">
+        <div class="container" id="heading">
+            <h1 class="big_heading" id="python">Why Python?</h1>
+        </div>
+</body>
+</html>
