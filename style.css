@@ -199,6 +199,18 @@ img {
     #first {
         flex-direction: column;
     }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .micropython {
+        flex-direction: column-reverse;
+    }
+
+    #heading h1 {
+        margin: 20px;
+    }
 }
 
 @media(max-width: 550px) {
