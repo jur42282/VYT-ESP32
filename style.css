@@ -107,6 +107,14 @@ nav a:hover {
     display: none;
 }
 
+#esp:hover {
+    transform: scale(1.1);
+    transition: ease 0.5s;
+}
+
+#esp {
+    transition: ease 0.5s;
+}
 
 #first {
     display: flex;
@@ -122,6 +130,11 @@ nav a:hover {
     font-weight: 700;
     margin: 20px 0;
     color: var(--text);
+}
+
+.big-heading:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 0.5s;
 }
 
 .heading {
