@@ -40,12 +40,14 @@ body::-webkit-scrollbar {
 }
 
 nav {
-    background-color: var(--primary);
+    background-image: url('./images/backgroundbar.png');
+    background-position: 17px;
     box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
     position: sticky;
     top: 0;
     z-index: 9;
 }
+
 
 nav ul {
     width: 100%;
