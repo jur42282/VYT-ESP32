@@ -112,7 +112,7 @@ nav a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--background);
+    background-image: url('./images/backgroundweb.png');
     color: var(--text);
     height: 100vh;
 }
@@ -140,8 +140,44 @@ nav a:hover {
     -webkit-text-fill-color: transparent;
 }
 
-#python {
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: var(--background);
+    backdrop-filter: blur(10px);
+    max-width: 90%;
+    border: var(--accent) 0px solid;
+    border-radius: 10px;
+    color: var(--text);
+    transition: ease 0.5s;
+}
+
+#content:hover {
+    box-shadow: 10px 5px 5px var(--accent);
+    border: var(--accent) 1px solid;
+    transition: ease 0.5s;
+}
+
+#text {
+    margin: 20px;
+    font-size: large;
+}
+
+#esp32 {
     margin: 20px;   
+}
+
+img {
+    margin: 20px;
 }
 
 @media(max-width: 978px) {
@@ -182,5 +218,9 @@ nav a:hover {
     .big-heading {
         max-width: 80%;
         margin: 20px;
+    }
+
+    #content {
+        flex-wrap: wrap;
     }
 }

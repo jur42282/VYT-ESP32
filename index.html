@@ -15,29 +15,45 @@
     <nav>
         <ul class="sidebar">
             <li onclick="hideSidebar()"><a href="#"><i class="material-symbols-outlined">close</i></a></li>
-            <!-- <li><a href="#">LJ</a></li> -->
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">Tutorials</a></li>
-            <li><a href="#">Project</a></li>
+            <li><a href="index.html">Úvod</a></li>
+            <li><a href="#">Tutoriály</a></li>
+            <li><a href="#">Projekty</a></li>
         </ul>
         <ul>
-            <li><a href="#"></a></li>
-            <li class="hideOnMobile"><a href="index.html">Home</a></li>
-            <li class="hideOnMobile"><a href="#">Why Python?</a></li>
-            <li class="hideOnMobile"><a href="#">Tutorials</a></li>
-            <li class="hideOnMobile"><a href="#">Projects</a></li>
+            <!-- <li><a href="#"></a></li> -->
+            <li class="hideOnMobile"><a href="index.html">Úvod</a></li>
+            <li class="hideOnMobile"><a href="#">Tutoriály</a></li>
+            <li class="hideOnMobile"><a href="#">Projekty</a></li>
             <li class="menu-button" onclick="showSidebar()"><a href="#"><i class="material-symbols-outlined">menu</i></a></li>
         </ul>
     </nav>
     <section id="first">
         <div class="container" id="esp"><img src=".\images\ESP32-DEVKITC-32E-removebg-preview.png" alt="ESP32-DEVKITC-32E"></div>
         <div class="cntainer" id="heading">
-            <h1 class="big_heading">ESP32<br> IN PYTHON</h1>
+            <h1 class="big_heading">ESP32<br> V PYTHONU</h1>
         </div>
     </section>
-    <section id="second">
+    <div class="container">
+    <section class="container" id="content">
         <div class="container" id="heading">
-            <h1 class="big_heading" id="python">Why Python?</h1>
+            <h1 class="big_heading" id="esp32">Co je ESP32?</h1>
         </div>
-</body>
+        <div class="container" id="text">
+            <p>ESP32 je mikroprocesorový čip vyvinutý společností Espressif Systems, který je určen pro použití v IoT aplikacích. ESP32 kombinuje Wi-Fi a Bluetooth konektivitu, což umožňuje bezdrátovou komunikaci a řízení zařízení na dálku. Díky svému vysokému výkonu a nízké spotřebě energie je ESP32 často využíván v chytrých domácnostech, průmyslových aplikacích a DIY projektech. </p>
+            <img src="./images/eps32-čip.png" alt="ESP32 čip" width="200px">
+        </div>
+    </section>
+    </div>
+    <div class="container">
+        <section class="container" id="content">
+            <img src="./images/micropython.png" alt="ESP32 čip" width="200px">
+            <div class="container" id="text">
+                <p>Defaultní programovací jazyk ESP32 je C++, proč jsem tedy zvolil MicroPython pro své projekty? Hlavním důvodem je syntax, který je v MicroPythonu převzaný z pythonu, a díky tomu je mi bližší než syntax C++. MicroPython je sice pomalejší než C++, ale pro mé aplikace to nemá vliv.</p>
+            </div>
+            <div class="container" id="heading">
+                <h1 class="big_heading" id="esp32">Proč Python?</h1>
+            </div>
+        </section>
+        </div>
+        </body>
 </html>
